@@ -1,0 +1,207 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+.container{
+display: flex;
+background-color: white;
+width: 700px;
+height: 300px;
+justify-content: center;
+align-items: center;
+border-radius: 7px;
+margin-left: auto;
+margin-right: auto;
+margin-top: auto;
+margin-bottom: auto;}
+
+.firstBlock{
+width: 340px;
+}
+
+input{
+width:301px;
+background-color: rgba(240, 248, 255, 0.758);
+height: 26px;
+text-align:end;
+font-size: 18px;
+font-weight: 600;
+font-family: Space Mono;
+margin-bottom: 16px;
+border: none;
+border-radius: 3px;}
+
+.border{
+border:2px solid red!important;
+}
+
+input:hover{
+border:2px solid hsla(183, 57%, 59%, 0.981);
+cursor: pointer;}
+
+.tipValue{
+width:94px;
+height: 33px;
+margin-right: 7px;
+background-color:hsla(182, 28%, 21%, 0.99);
+color: white;
+border-radius: 3px;
+font-family:'Courier New', Courier, monospace;
+font-weight: 700;
+font-size: medium;
+border: none;
+}
+
+.tipValue:hover{
+background-color:  hsla(182, 52%, 54%, 0.99);
+cursor: pointer;
+color: black;}
+
+#custom{
+height: 19px;
+width: 75px;
+padding-left:  16px;
+align-content: center;
+padding-bottom: 7px;
+padding-top: 5px;
+background-color:rgba(240, 248, 255, 0.758);;
+}
+
+#custom::placeholder{
+color:hsla(182, 28%, 21%, 0.84);
+font-weight: 700;
+font-size: medium;
+}
+
+.text{
+font-family: monospace;
+font-weight: 600;
+color: rgb(130, 128, 128);
+margin-bottom:10px;
+margin-top: 10px;
+}
+
+.buttons{
+margin-bottom: 8px;}
+
+#Bill{
+background-image: url("images/icon-dollar.svg");
+background-repeat: no-repeat;
+background-position: 7px;
+}
+
+
+#people{
+background-image: url("images/icon-person.svg");
+background-repeat: no-repeat;
+background-position: 7px;
+}
+
+
+.secBlock{
+display: flex;
+flex-direction: column;
+background-color: hsla(182, 28%, 21%, 0.99);
+width: 320px;
+border-radius: 6px;
+justify-content:first baseline;
+height: 260px;
+}
+
+
+.result{
+color:white;
+font-family: monospace;
+margin-bottom: 0px;
+padding-bottom: 0px;
+line-height: 27px;}
+
+
+#tipPerson{
+font-size: 25px;
+font-weight: 700;
+color: hsla(182, 52%, 54%, 0.99);
+font-family: monospace ;}
+
+
+#billPerson{
+font-size: 25px;
+font-weight: 700;
+color: hsla(182, 52%, 54%, 0.99);
+font-family: monospace ;}
+
+.tipBlock{
+display: flex;
+justify-content: space-between;
+margin-top: auto;
+margin-left: 20px;
+margin-right: 20px;}
+
+.billBlock{
+display: flex;
+justify-content: space-between;
+margin-left: 20px;
+margin-right: 20px;
+
+}
+
+p{
+margin-top: 0px;
+margin-bottom: auto;
+margin-left: 20px;
+margin-right: 20px;
+font-family:  monospace;
+color: rgb(130, 128, 128);
+}
+
+#reset{
+display: flex;
+margin-top: auto;
+justify-content: center;
+margin-bottom: 20px;
+margin-left: auto;
+margin-right: auto;
+width: 280px;
+background-color: hsla(182, 52%, 54%, 0.354);
+height: 28px;
+padding-top: 4px;
+border-radius: 3px;
+border: none;
+color: rgba(0, 0, 0, 0.249);
+font-family:monospace;
+font-size: large;
+font-weight: 600;}
+
+#reset:hover{
+background-color: hsla(182, 52%, 54%, 0.99);
+color: black;
+cursor: pointer;
+}
+
+.color{
+background-color: hsla(182, 52%, 54%, 0.99)!important;
+color: black!important;}
+
+.Mcontainer{
+background-color: hsla(182, 52%, 54%, 0.352);
+display: flex;
+justify-items: center;
+align-items: center;
+height: 680px;
+flex-direction: column;
+background-image: url(images/logo.svg);
+background-repeat: no-repeat;
+background-position-x: center;
+background-position-y:70px;
+}
+
+.straight{
+width: 270px;
+display: flex;
+justify-content: space-between;
+}
+
+#error{color: red;
+font-size: small;
+font-family:  monospace;
+align-self: center;
+font-weight: 700;}
